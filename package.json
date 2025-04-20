@@ -1,0 +1,34 @@
+{
+	"name": "express",
+	"version": "1.0.0",
+	"description": "studying express",
+	"keywords": [
+		"express",
+		"http",
+		"fetch",
+		"node"
+	],
+	"homepage": "https://github.com/Waldemar-00/express#readme",
+	"bugs": {
+		"url": "https://github.com/Waldemar-00/express/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Waldemar-00/express.git"
+	},
+	"license": "ISC",
+	"author": "uladzimir",
+	"type": "commonjs",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"dependencies": {
+		"@types/express": "^5.0.1",
+		"express": "^5.1.0"
+	},
+	"devDependencies": {
+		"nodemon": "^3.1.9",
+		"typescript": "^5.8.3"
+	}
+}
