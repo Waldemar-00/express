@@ -7,7 +7,7 @@ const URL = 'localhost'
 const server = http.createServer((req, res) => {
 	if (req.method === 'GET' && req.url === '/') {
 		res.setHeader('Content-Type', 'text/html')
-		res.write('<h1>Hello at Home!</h1>')
+		res.write('<h1>Hello from HTTP module of Node.js!</h1>')
 		res.end()
 	}
 })
